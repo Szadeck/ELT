@@ -10,9 +10,11 @@ TARGET = ELT-Project
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp \
+    Views/MainWindow.cpp
 
-HEADERS  += mainwindow.hpp
+HEADERS  += \
+    Views/MainWindow.hpp
 
-FORMS    += mainwindow.ui
+FORMS    += \
+    Views/MainWindow.ui
