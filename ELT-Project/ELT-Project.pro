@@ -9,6 +9,8 @@ QT       += core gui
 TARGET = ELT-Project
 TEMPLATE = app
 
+INCLUDEPATH += \
+    Views
 
 SOURCES += main.cpp \
     Views/MainWindow.cpp
